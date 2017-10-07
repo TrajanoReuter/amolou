@@ -1,0 +1,333 @@
+/*FONTES*/
+@font-face{
+    font-family: 'Ubuntu-Regular';
+    src: url('../fonts/Ubuntu/Ubuntu-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Ubuntu-Light';
+    src: url('../fonts/Ubuntu/Ubuntu-Light.ttf');
+}
+
+@font-face{
+    font-family: 'Narrow-Regular';
+    src: url('../fonts/Narrow/Narrow-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Abel-Regular';
+    src: url('../fonts/Abel/Abel-Regular.ttf');
+}
+
+h2{
+    font-size: 4em;
+    font-family: 'Abel-Regular';
+}
+
+body{
+   font-family: 'Ubuntu-Regular';
+}
+
+a{
+    text-decoration: none;
+    outline: none;
+    transition: all .75s;
+    -o-transition: all .75s;
+    -moz-transition: all .75s;
+    -ms-transition: all .75s;
+    -webkit-transition: all .75s;
+}
+
+a:hover{
+    text-decoration: none;
+    outline: none;
+}
+
+a:focus{
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+}
+
+button{
+    display: inline-block;
+    outline: none;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 30px;
+    transition: all .75s;
+    -o-transition: all .75s;
+    -moz-transition: all .75s;
+    -ms-transition: all .75s;
+    -webkit-transition: all .75s;
+}
+
+header{
+    width: 100%;
+    min-height: 560px;
+    height: auto;
+    background-image: url('../img/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #b03b7f;
+}
+
+header nav.desk{
+    width: 100%;
+    height: 80px;
+    background-color: rgba(40, 14, 29, .9);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, .3);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav.desk ul{
+    margin-top: 30px;
+}
+
+header nav.desk ul>li{
+    font-weight: bold;
+    color: #fff;
+}
+
+header nav.desk ul>li>span{
+    margin-left: 12px;
+}
+
+header a{
+    color: #fff;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #fff;
+    opacity: .6;
+}
+
+header nav.desk img.logo{
+    margin-top: 15px;
+}
+
+header h1{
+    color: #fff;
+    font-size: 5em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .3);
+    margin-top: 100px;
+}
+
+header .loset{
+    margin-left: 60px;
+}
+
+button.i-want{
+    width: 330px;
+    height: 45px;
+    color: #fff;
+    border: 3px solid #fff;
+    background-color: transparent;
+    margin-top: 60px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, .1);
+    font-size: 1.5em;
+}
+
+button.i-want:hover{
+    background-color: #531d3d;
+    border-color: #531d3d;
+    color: #9c3872;
+}
+
+button.i-want>span{
+    font-weight: bold;
+}
+
+section#how-works{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    color: #a9a6a8;
+    padding-bottom: 30px;
+}
+
+section#how-works h2{
+    color: #925277;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .3);
+    margin-bottom: 30px;
+}
+
+section#how-works img.stp{
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+section#be-part{
+    width: 100%;
+    min-height: 440px;
+    height:auto;
+    background-color: #280e1d;
+    background-image: url('../img/be-part-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+section#be-part h2{
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .3);
+    margin-top: 60px;
+}
+
+section#be-part img.heart{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+section#be-part p{
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .3);
+    font-size: 1.5em;
+}
+
+section#be-part p>span{
+    font-weight: bold;
+}
+
+button.be-part{
+    width: 320px;
+    height: 38px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    font-size: 1.5em;
+    margin-top: 30px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, .1);
+}
+
+button.be-part:hover{
+    background-color: #531d3d;
+    border-color: #531d3d;
+    color: #fff;
+}
+
+section#contact{
+    background-color: #69254d;
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+section#contact h2{
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .3);
+    margin-bottom: 40px;
+}
+
+section#contact input{
+    height: 43px;
+}
+
+section#contact input, section#contact textarea{
+    width: 100%;
+    padding: 15px 30px 15px 30px;
+    background-color: #782b58;
+    border-radius: 30px;
+    outline: none;
+    box-shadow: none;
+    border: transparent;
+    margin-bottom: 7px;
+    color: rgba(255, 255, 255, .55);
+}
+
+section#contact form input::-webkit-input-placeholder, section#contact form textarea::-webkit-input-placeholder {
+   color: #531d3d;
+}
+
+section#contact form input:-moz-placeholder, section#contact form textarea:-moz-placeholder { /* Firefox 18- */
+   color: #531d3d;
+}
+
+section#contact form input::-moz-placeholder, section#contact form textarea::-moz-placeholder {  /* Firefox 19+ */
+   color: #531d3d;
+}
+
+section#contact form input:-ms-input-placeholder, section#contact form textarea:-ms-input-placeholder {
+   color: #531d3d;
+}
+
+section#contact button{
+    width: 100%;
+    height: 43px;
+    border: transparent;
+    color: #9c3872;
+    font-weight: bold;
+    background-color: #531d3d;
+}
+
+section#contact button:hover{
+    background-color: #fff;
+}
+
+section#contact .lofst{
+    padding-left: 50px;
+}
+
+section#contact img.contact{
+    margin-right: 25px;
+}
+
+section#contact img.contact.placeholder{
+    margin-left: 5px;
+}
+
+section#contact p{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+section#contact .social{
+    margin-left: 120px;
+}
+
+section#contact .social img{
+    margin-right: 15px;
+}
+
+section#contact a:hover{
+    opacity: .6;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #782b58;
+}
+
+footer a:hover{
+    color: #fff;
+    opacity: .6;
+}
+
+footer .container{
+    position: relative;
+}
+
+footer a.plogo{
+    position: absolute;
+    right: 0;
+}
+
+footer a.plogo>span{
+    color: #fff;
+    font-size: .8em;
+    margin-right: 5px;
+}
+
+.ef1, .ef2, .ef3, .ef4{
+    opacity: 0;
+}
+
+.ef1.active, .ef2.active, .ef3.active, .ef4.active{
+    opacity: 1;
+}

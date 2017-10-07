@@ -1,0 +1,59 @@
+@media only screen and (max-width: 988px){
+    header .loset{
+        margin-left: 0;
+    }
+    section#contact .lofst{
+        padding-left: 15px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    header h1{
+        text-align: center;
+    }
+    button.be-part{
+        width: 280px;
+    }
+    button.i-want{
+        width: 280px;
+        margin-left: calc(50% - 140px);
+    }
+    section#how-works p{
+        margin-bottom: 60px;
+    }
+    section#contact .lofst{
+        margin-top: 60px;
+        text-align: center;
+    }
+    section#contact .social{
+        margin-left: 0;
+    }
+    footer a.plogo{
+        right: 15px;
+    }
+    header nav.desk img.logo{
+        margin-left: calc(50% - 80px);
+    }
+    section#contact p{
+        font-size: 1em;
+    }
+    section#contact img.contact,section#contact img.contact.placeholder{
+        width: 10%;
+    }
+}
+
+@media only screen and (max-width: 502px){
+    section#be-part{
+        min-height: 520px;
+        background-image: none;
+    }
+    footer a.plogo>span{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    header{
+        padding-bottom: 80px;
+    }
+}
